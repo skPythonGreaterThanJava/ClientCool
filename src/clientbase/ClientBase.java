@@ -37,7 +37,8 @@ public class ClientBase {
                 System.out.println("frase inserita: " + s);
                 out.println(s);
                 String risposta = in.readLine();
-                System.out.println("risposta del server: " + risposta);
+                System.out.println("Risposta del server :" + risposta);
+                System.out.println("Hai inserito " + risposta.split(" ")[1] + " caratteri");
             }
 
             in.close();
